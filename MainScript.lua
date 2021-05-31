@@ -2,8 +2,8 @@
 
 local success, err = pcall(function()
     loadstring(
-        game:HttpGet("https://raw.githubusercontent.com/SecretSupply/BoogaAdmin/main/Main.lua")
+        game:HttpGet("https://raw.githubusercontent.com/SecretSupply/BoogaAdmin/main/Script.lua")
     )()
 end)
 if not success then return warn("Error while loading booga admin.", err) end
-print("Welcome to Booga Admin.\nCreated by SecretSupply#6929.\nEnjoy!")
+print("\nWelcome to Booga Admin.\nCreated by SecretSupply#6929.\nEnjoy!")
